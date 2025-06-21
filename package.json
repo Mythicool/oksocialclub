@@ -1,0 +1,60 @@
+{
+  "name": "doing-ok-social",
+  "version": "1.0.0",
+  "description": "Oklahoma's premier social dining experience - A modern website for the Doing OK Social Club",
+  "private": true,
+  "author": "Doing OK Social Club",
+  "license": "MIT",
+  "homepage": "https://doingoksocial.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/doing-ok-social.git"
+  },
+  "keywords": [
+    "oklahoma",
+    "social-club",
+    "dining",
+    "events",
+    "community",
+    "nextjs",
+    "react",
+    "tailwindcss"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next out",
+    "export": "next build && next export",
+    "analyze": "cross-env ANALYZE=true next build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "framer-motion": "^12.18.1",
+    "lucide-react": "^0.519.0",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.29.0",
+    "eslint-config-next": "^15.3.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  }
+}
